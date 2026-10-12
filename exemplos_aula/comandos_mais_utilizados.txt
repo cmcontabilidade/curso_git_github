@@ -1,0 +1,35 @@
+COMANDOS GIT MAIS UTILIZADOS
+===========================
+
+Comando                         | Para que serve
+--------------------------------|----------------------------------------------
+git init                        | Inicia um repositorio Git na pasta atual.
+git clone URL                   | Baixa um repositorio remoto para o computador.
+git status                      | Mostra o estado atual dos arquivos.
+git add .                       | Prepara todas as alteracoes para o commit.
+git commit -m "mensagem"        | Registra as alteracoes preparadas no historico.
+git log                         | Mostra o historico de commits.
+git diff                        | Mostra alteracoes ainda nao preparadas.
+git branch                      | Lista as branches locais.
+git switch nome                 | Troca para a branch indicada.
+git switch -c nome              | Cria uma nova branch e muda para ela.
+git merge nome                  | Integra a branch indicada na branch atual.
+git pull                        | Busca e integra alteracoes do repositorio remoto.
+git push                        | Envia commits locais para o repositorio remoto.
+git remote -v                   | Mostra os repositorios remotos configurados.
+git restore arquivo             | Descarta alteracoes nao preparadas nesse arquivo.
+
+EXEMPLO DE FLUXO BASICO
+----------------------
+git status
+git add .
+git commit -m "Atualiza arquivos do projeto"
+git push
+
+OBSERVACOES
+-----------
+- Execute os comandos dentro da pasta do repositorio Git.
+- Troque URL pelo endereco HTTPS do repositorio.
+- Substitua 'nome' pelo nome da branch desejada.
+- O comando 'git restore arquivo' descarta alteracoes locais ainda nao preparadas; use com cuidado.
+- Antes de usar 'git add .', confira se a pasta nao contem senhas, tokens ou dados confidenciais.
