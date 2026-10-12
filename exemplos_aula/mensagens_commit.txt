@@ -1,0 +1,8 @@
+feat: adiciona cálculo automático do Fator R
+fix: corrige arredondamento do imposto
+docs: atualiza manual de procedimentos
+refactor: reorganiza código de apuração tributária
+test: adiciona testes do cálculo do DAS
+chore: atualiza dependências do projeto
+style: ajusta formatação do código
+perf: otimiza processamento dos arquivos XML
